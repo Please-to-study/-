@@ -1,0 +1,27 @@
+.news_index {
+  padding: 0 28rpx;
+}
+.news_index .title {
+  margin: 30rpx 0 40rpx 0;
+  padding-left: 15rpx;
+  font-size: 36rpx;
+  font-weight: 700;
+  border-left: 6rpx solid #0e51a6;
+}
+.news_index .content_wrap {
+  width: 100%;
+  border-radius: 15rpx;
+  overflow: hidden;
+}
+.news_index .content_wrap .top_content {
+  width: 100%;
+  height: 30rpx;
+  background-color: rgba(65, 108, 246, 0.4);
+}
+.news_index .content_wrap .content {
+  padding: 80rpx 30rpx;
+  font-size: 36rpx;
+  color: #989794;
+  line-height: 45rpx;
+  background-color: #fff;
+}

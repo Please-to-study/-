@@ -1,0 +1,5 @@
+<view class="top_nav">
+  <view class="title">{{title}}</view>
+  <!-- 返回按钮 -->
+  <view class="back" bindtap="handleBack"></view>
+</view>

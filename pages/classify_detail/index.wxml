@@ -1,0 +1,48 @@
+<!-- 顶部标题栏 -->
+<Topnav></Topnav>
+<view class="classify_detail_index">
+  <view class="classify_title_wrap">
+    <view class="img">
+      <image mode="widthFix" src="../../img/vegetable.png" />
+    </view>
+    <view class="title">{{currentTittle}} {{currentTittleNum}}</view>
+  </view>
+  <!-- 轮播图开始 -->
+  <view class="content_swiper">
+    <swiper previous-margin="30px" next-margin="30px" bindchange="bindchange">
+      <block wx:for="{{contentList}}" wx:key="{{index}}">
+        <swiper-item>
+          <view class="item">
+            <!-- 学习单词编号部分 -->
+            <view class="current_page">
+              <view class="page">{{swiperIndex+1}}</view>
+            </view>
+            <!-- 单词播放部分 -->
+            <view class="current_word">
+              <text class="word" bindtap="handleTextAudio" data-item="{{item}}">{{item}}</text>
+            </view>
+            <!-- 录音部分 -->
+            <view class="audio_wrap">
+              <view class="audio-btn" bindtouchstart="handleStartRecord" bindtouchend="handleStopRecord">
+                长按
+              </view>
+            </view>
+            <!-- 奖杯和对比结果部分 -->
+            <view class="current_result_wrap">
+              <view class="current_result_left"></view>
+              <view class="current_result_middle">
+                <text class="result_icon iconfont iconjiangbei {{item === recognize_result?'success':''}}"></text>
+                <text class="result">{{item === recognize_result?'挑战成功':'挑战失败'}}</text>
+              </view>
+              <view class="current_result_right"></view>
+            </view>
+          </view>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <!-- 轮播图结束 -->
+  <view class="page_num_wrap">
+    <view class="page_num">{{swiperIndex+1}}/{{contentListNum}}</view>
+  </view>
+</view>

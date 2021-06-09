@@ -1,0 +1,148 @@
+page {
+  background-color: #f2f3f5;
+}
+.top_nav {
+  position: relative;
+  width: 100%;
+}
+.top_nav image {
+  display: block;
+  width: 100%;
+}
+.top_nav .title {
+  position: absolute;
+  top: 73%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30rpx;
+}
+.user_wrap {
+  padding: 0 30rpx;
+}
+.user_wrap .user_info_wrap {
+  position: relative;
+  width: 100%;
+  height: 330rpx;
+  border-radius: 20rpx;
+  padding: 30rpx;
+  background-color: #fff;
+}
+.user_wrap .user_info_wrap .user_icon_wrap {
+  display: flex;
+}
+.user_wrap .user_info_wrap .user_icon_wrap .icon {
+  width: 110rpx;
+  height: 110rpx;
+  border-radius: 50%;
+  margin-right: 30rpx;
+  text-align: center;
+  color: #07a3f6;
+  box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+.user_wrap .user_info_wrap .user_icon_wrap .icon image {
+  width: 100%;
+}
+.user_wrap .user_info_wrap .user_icon_wrap .icon .mine {
+  font-size: 80rpx;
+  line-height: 110rpx;
+}
+.user_wrap .user_info_wrap .user_icon_wrap .nickname {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  color: #525252;
+}
+.user_wrap .user_info_wrap .exercise_wrap {
+  padding-top: 60rpx;
+  display: flex;
+  justify-content: center;
+}
+.user_wrap .user_info_wrap .exercise_wrap .exercise_time {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user_wrap .user_info_wrap .exercise_wrap .exercise_medal {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user_wrap .user_info_wrap .gap {
+  position: absolute;
+  left: 340rpx;
+  bottom: 40rpx;
+  width: 2rpx;
+  height: 30rpx;
+  background-color: #dcdcdc;
+}
+.user_wrap .notice {
+  width: 100%;
+  margin-top: 50rpx;
+  height: 100rpx;
+  background-color: #fff;
+  border-radius: 50rpx;
+  line-height: 100rpx;
+}
+.user_wrap .user_collection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30rpx;
+  height: 180rpx;
+  background-color: #fff;
+  border-radius: 20rpx;
+}
+.user_wrap .user_collection .study_info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.user_wrap .user_collection .study_info image {
+  width: 50%;
+}
+.user_wrap .more {
+  height: 456rpx;
+  margin-top: 30rpx;
+  background-color: #fff;
+  border-radius: 20rpx;
+  padding: 48rpx 32rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.fc_g {
+  color: #07a3f6;
+}
+.fc_b {
+  color: #616161;
+}
+.fs42 {
+  font-size: 42rpx;
+}
+.fs {
+  font-size: 36rpx;
+}
+.fs32 {
+  font-size: 32rpx;
+}
+.ml35 {
+  margin-left: 35rpx;
+}
+.ml6 {
+  margin-left: -6rpx;
+}
+.mr35 {
+  margin-right: 35rpx;
+}
+.mt8 {
+  margin-top: 8rpx;
+}
+.fr {
+  float: right;
+}

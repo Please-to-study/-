@@ -1,0 +1,13 @@
+<!-- 顶部标题栏 -->
+<Topnav></Topnav>
+<view class="class_list_index">
+  <view class="parent_classify" wx:for="{{keyList}}" wx:for-index="keyindex" wx:key="*this">
+    <view wx:for="{{item}}" wx:for-index="key" wx:for-item="value" wx:key="*this">
+      <navigator wx:for="{{value}}" wx:for-index="navindex" wx:key="*this" url="/pages/classify_detail/index?key={{key}}&index={{navindex+1}}">
+        <view class="item {{keyindex===0?'bgc_pink':''}} {{keyindex===1?'bgc_purple':''}} {{keyindex===2?'bgc_b':''}} {{keyindex===3?'bgc_g':''}}">
+          <view class="item_name">{{key}} {{navindex+1}}</view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</view>

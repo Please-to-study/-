@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/user/index",
+    "pages/classify_list/index",
+    "pages/classify_detail/index",
+    "pages/news_content/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "navigationStyle": "custom",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#0099FF",
+    "navigationBarTitleText": "哈哈哈",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff2d4a",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/home1.png",
+        "selectedIconPath": "icons/home-o.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "icons/mine.png",
+        "selectedIconPath": "icons/mine-o.png"
+      } 
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "plugins": {
+    "WechatSI": {
+      "version": "0.3.4",
+      "provider": "wx069ba97219f66d99"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+<Topnav></Topnav>
+<view class="news_index">
+  <view class="title">{{title}}</view>
+  <view class="content_wrap">
+    <view class="top_content"></view>
+    <view class="content">
+      <text user-select="{{true}}">{{content}}</text>
+    </view>
+  </view>
+</view>

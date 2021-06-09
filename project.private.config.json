@@ -1,0 +1,42 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "我的",
+          "pathName": "pages/user/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "米面果蔬列表页面",
+          "pathName": "pages/classify1_list/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "学习详情页面",
+          "pathName": "pages/classify1_detail/index",
+          "query": "index=5&riceArrayNum=1&flourArrayNum=2&fruitArrayNum=4&vegetableArrayNum=10",
+          "scene": null
+        },
+        {
+          "name": "测试",
+          "pathName": "pages/test/index",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
